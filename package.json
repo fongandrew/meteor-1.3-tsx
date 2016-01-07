@@ -1,0 +1,26 @@
+{
+  "name": "meteor-tsx",
+  "version": "0.1.0",
+  "description": "Boilerplate for TypeScript / React / Meteor 1.3",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "meteor": "cd meteor && meteor",
+    "start": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fongandrew/meteor-tsx.git"
+  },
+  "author": "Andrew Fong <id@andrewfong.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fongandrew/meteor-tsx/issues"
+  },
+  "homepage": "https://github.com/fongandrew/meteor-tsx",
+  "devDependencies": {
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-typescript": "^2.10.0",
+    "typescript": "^1.7.5"
+  }
+}
