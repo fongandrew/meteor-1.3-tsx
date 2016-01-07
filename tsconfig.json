@@ -5,5 +5,9 @@
     "inlineSourceMap": true,
     "inlineSources": true,
     "jsx": "preserve"
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "meteor"
+  ]
 }
