@@ -22,4 +22,4 @@ meteor/*
 !meteor/.meteor
 
 # Editor files
-*.sublime-workspace
+*.sublime*
