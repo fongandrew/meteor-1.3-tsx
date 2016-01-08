@@ -2,6 +2,8 @@ Meteor + TypeScript + React
 ===========================
 Boilerplate for a Meteor 1.3 beta project with TypeScript and React
 
+*WORK IN PROGRESS*
+
 Rather than use Meteor's own build process to handle TypeScript, this repo
 uses Gulp (v4) to compile TypeScript to ES6, and then uses Meteor's
 `ecmascript` package to compile the ES6. This lets us use ES6 modules
@@ -16,6 +18,14 @@ and it's easier to do things like use a specific version of TypeScript.
 
 The downside is that we have to manage two build systems and a slightly awkward
 directory structure.
+
+Getting Started
+---------------
+* `npm install` to install dependencies
+* `npm install tsd -g` if you want to use TSD to manage TypeScript definitions
+  (installed in the typings directory)
+* `npm run watch` to compile TypeScript and start Meteor (see below for more
+  detail)
 
 Directory / File Structure
 --------------------------
