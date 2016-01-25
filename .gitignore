@@ -1,0 +1,4 @@
+node_modules
+typings
+*.m.js
+*.sublime-*
